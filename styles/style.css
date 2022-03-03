@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&family=Noto+Sans:wght@400;700&display=swap');
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    background-image: url("/class_37-reto/assets/Clouds-rainbows_00392163.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 62.5%;
+}
+
+.main-container
+{
+    background-color: #f3a547;
+    position: relative;
+    width: 45vw;
+    max-width: 41.5rem;
+    height: 78vh;
+    max-height: 51rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 4rem;
+    min-width: 32rem;
+    border-radius: 2.5rem;
+    
+    border: 8px ridge #6666cc;
+}
+
+.main-title
+{
+    background-color: #dcedc8;
+    position: relative;
+    position: absolute;
+    text-align: center;
+    padding-top: 0.2rem;
+    width: 40%;
+    max-width: 31.5rem;
+    height: 12%;
+    border-radius: 1rem;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -5px;
+    font-size: 2rem;
+    border: 1.5px inset #01010a;
+}
+
+.main-container__text
+{
+    background-color: #b8a7ec;
+    width: 78%;
+    min-width: 26rem;
+    height: 90.5%;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 23.8rem;
+    position: relative;
+    border-radius: 2rem;
+    border: 4px groove #ce811d;
+}
+
+.main-container__text .main-container__text__description
+{
+    font-size: 1.7rem;
+    line-height: 104%;
+    color: black;
+    font-weight: 500;
+    text-align: justify;
+    padding-top: 2px;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    
+}
+
+.main-container__img
+{
+    text-align: center;
+    background-color: #7038f8;
+    width: 100%;
+    height: 52%;
+    border-radius: 2rem;
+    border: 3.5px ridge #6666cc
+}
+
+.main-container__img img
+{
+    padding-top: -30px;
+    width: 80%;
+    min-width: 24rem;
+}
+
+.main-container__footer
+{
+    background-color: #dcedc8;
+    position: relative;
+    width: 94%;
+    min-width: 20rem;
+    height: 25%;
+    min-height: 10rem;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 5.8rem;
+    border-radius: 3rem/2rem;
+    border: 2px groove black;
+    text-align: center;
+}
+
+.main-container__footer__subtitle
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.main-container__footer__subtitle .main-container__footer__text
+{
+   
+    font-size: 1.3rem;
+}
+
+.dragon-text
+{
+    background-color: #7038f8;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 4px;
+}
+
+.volador-text
+{
+    background-color: #a890f0;
+    border-radius: 4px;
+}
+
+.hada-text
+{
+    background-color: #fdb9e9;
+    border-radius: 4px;
+}
+
+.hielo-text
+{
+    background-color: #98d8d8;
+    border-radius: 4px;
+}
+
+.roca-text
+{
+    background-color: #b8a038;
+    border-radius: 4px;
+}
+
+footer
+{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer p:nth-child(2)
+{
+    color: rgb(29, 202, 29);
+    font-weight: bold;
+    font-style: italic;
+}
